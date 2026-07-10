@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catálogo de Productos</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f7f8fa;
+    color:#2c3e50;
+}
+
+header{
+    background:white;
+    padding:40px 20px;
+    text-align:center;
+    box-shadow:0 2px 10px rgba(0,0,0,.05);
+}
+
+header h1{
+    font-size:2.2rem;
+    font-weight:600;
+    letter-spacing:2px;
+}
+
+header p{
+    color:#7f8c8d;
+    margin-top:10px;
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.categoria{
+    background:white;
+    margin-bottom:30px;
+    border-radius:18px;
+    padding:30px;
+    box-shadow:0 4px 20px rgba(0,0,0,.06);
+}
+
+.categoria h2{
+    font-size:1.4rem;
+    margin-bottom:25px;
+    color:#0f172a;
+    border-bottom:2px solid #e5e7eb;
+    padding-bottom:10px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+
+.productos{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
+    gap:12px;
+}
+
+.producto{
+    padding:12px 16px;
+    background:#f8fafc;
+    border-radius:10px;
+    border:1px solid #e2e8f0;
+    transition:.2s;
+}
+
+.producto:hover{
+    transform:translateY(-2px);
+    background:#ffffff;
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#94a3b8;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>CATÁLOGO DE PRODUCTOS</h1>
+    <p>Disponibles en Front Desk</p>
+</header>
+
+<div class="container">
+
+    <!-- CUIDADO PERSONAL -->
+    <section class="categoria">
+        <h2>Cuidado Personal</h2>
+
+        <div class="productos">
+            <div class="producto">Acetona Jaloma 60 ml</div>
+            <div class="producto">Cepillo Dental Colgate</div>
+            <div class="producto">Colgate Luminous White 22 ml</div>
+            <div class="producto">Crema de Peinar Pantene 160 ml</div>
+            <div class="producto">Desodorante Ego Roll On 45 gr</div>
+            <div class="producto">Desodorante Lady Speed Stick 45 gr</div>
+            <div class="producto">Desodorante Obao Roll On Mujer 65 gr</div>
+            <div class="producto">Desodorante Old Spice Barra 50 gr</div>
+            <div class="producto">Desodorante Old Spice Roll On</div>
+            <div class="producto">Desodorante Rexona Mujer 45 gr</div>
+            <div class="producto">Desodorante Rexona Roll On Hombre 30 ml</div>
+            <div class="producto">Desodorante Secret Gel 45 gr</div>
+            <div class="producto">Gel Extreme 250 gr</div>
+            <div class="producto">Gel Fijador Moco de Gorila 85 gr</div>
+            <div class="producto">Loofa Esponja de Baño</div>
+            <div class="producto">Rastrillo Gillette</div>
+            <div class="producto">Rastrillo Venus</div>
+            <div class="producto">Shampoo Palmolive 60 ml</div>
+            <div class="producto">Shampoo Pantene 100 ml</div>
+            <div class="producto">Shampoo Head & Shoulders 90 ml</div>
+            <div class="producto">Shampoo Sedal 180 ml</div>
+            <div class="producto">Toalla Desmaquillante</div>
+            <div class="producto">Toalla Femenina Saba Nocturna</div>
+            <div class="producto">Toalla Femenina Saba Regular</div>
+            <div class="producto">Toallitas Húmedas Escudo Antibacteriales</div>
+        </div>
+    </section>
+
+    <!-- MEDICAMENTOS -->
+    <section class="categoria">
+        <h2>Medicamentos</h2>
+
+        <div class="productos">
+            <div class="producto">Alka Seltzer</div>
+            <div class="producto">Sedalmerck</div>
+            <div class="producto">Aspirina</div>
+            <div class="producto">Sal de Uvas</div>
+            <div class="producto">Pepto Bismol</div>
+            <div class="producto">Vick Pyrena</div>
+        </div>
+    </section>
+
+    <!-- BEBIDAS -->
+    <section class="categoria">
+        <h2>Bebidas</h2>
+
+        <div class="productos">
+            <div class="producto">Agua Ciel Variedad 1 Lt</div>
+            <div class="producto">Agua Ciel Mineralizada 355 ml</div>
+            <div class="producto">Agua Ciel Natural 1 Lt</div>
+            <div class="producto">Agua de Coco 330 ml</div>
+            <div class="producto">Cafe Ole Variedad 281 ml</div>
+            <div class="producto">Coca Cola Light 355 ml</div>
+            <div class="producto">Coca Cola Original 235 ml</div>
+            <div class="producto">Electrolit Suero 625 ml</div>
+            <div class="producto">Fuze Tea 600 ml</div>
+            <div class="producto">Gatorade 500 ml</div>
+            <div class="producto">Jugos del Valle 1 Lt</div>
+            <div class="producto">Leche Santa Clara 180 ml</div>
+            <div class="producto">Monster 473 ml</div>
+            <div class="producto">Powerade 600 ml</div>
+            <div class="producto">Refresco Fanta / Sprite / Mundet 600 ml</div>
+            <div class="producto">Té Arizona 460 ml</div>
+            <div class="producto">Té Arizona 570 ml</div>
+            <div class="producto">Vitamin Water 500 ml</div>
+        </div>
+    </section>
+
+    <!-- ALIMENTOS -->
+    <section class="categoria">
+        <h2>Alimentos</h2>
+
+        <div class="productos">
+            <div class="producto">Burritos Deshebrada El Cazo 110 gr</div>
+            <div class="producto">Maruchan Sopa Instantánea 64 gr</div>
+            <div class="producto">Pizza Fud Individual 7"</div>
+        </div>
+    </section>
+
+    <!-- BOTANAS -->
+    <section class="categoria">
+        <h2>Botanas</h2>
+
+        <div class="productos">
+            <div class="producto">Chips de Betabel 75 gr</div>
+            <div class="producto">Chips de Camote 85 gr</div>
+            <div class="producto">Chips de Jícama 85 gr</div>
+            <div class="producto">Chips de Plátano 100 gr</div>
+            <div class="producto">Palomitas Act II Variedad</div>
+            <div class="producto">Papas Chidas Variedad</div>
+            <div class="producto">Papas Sabritas Varias</div>
+        </div>
+    </section>
+
+    <!-- POSTRES -->
+    <section class="categoria">
+        <h2>Postres</h2>
+
+        <div class="productos">
+            <div class="producto">Barritas Variedad</div>
+            <div class="producto">Bigotes de Chocolate</div>
+            <div class="producto">Bimbuñuelos Bimbo</div>
+            <div class="producto">Canelitas</div>
+            <div class="producto">Chocorroles</div>
+            <div class="producto">Conchas Bimbo</div>
+            <div class="producto">Cremax</div>
+            <div class="producto">Cuernitos Bimbo</div>
+            <div class="producto">Donitas Espolvoreadas</div>
+            <div class="producto">Doraditas Tía Rosa</div>
+            <div class="producto">Duo Napolitano Bimbo</div>
+            <div class="producto">Duo Nito</div>
+            <div class="producto">Emperador</div>
+            <div class="producto">Gansito</div>
+            <div class="producto">Hershey Pastelito</div>
+            <div class="producto">Julitas Empanadas de Cajeta</div>
+            <div class="producto">Lors</div>
+            <div class="producto">Mantecadas Vainilla y Nuez</div>
+            <div class="producto">Nito</div>
+            <div class="producto">Panqué Variedad</div>
+            <div class="producto">Panquecito Gotas de Chocolate</div>
+            <div class="producto">Pingüinos Marinela</div>
+            <div class="producto">Polvorones</div>
+            <div class="producto">Príncipes Variedad</div>
+            <div class="producto">Pringles Variedad</div>
+            <div class="producto">Rebanadas Bimbo</div>
+            <div class="producto">Roles de Canela</div>
+            <div class="producto">Sponch</div>
+            <div class="producto">Suavicremas Variedad</div>
+            <div class="producto">Submarinos Variedad</div>
+            <div class="producto">Toscanas Variedad</div>
+            <div class="producto">Triki Trakes</div>
+        </div>
+    </section>
+
+    <!-- DULCES -->
+    <section class="categoria">
+        <h2>Dulces</h2>
+
+        <div class="productos">
+            <div class="producto">Carlos V Chocolate</div>
+            <div class="producto">Chocolate Kit Kat</div>
+            <div class="producto">Milky Way</div>
+            <div class="producto">Snickers</div>
+            <div class="producto">Halls Variedad</div>
+            <div class="producto">Kinder Delice</div>
+            <div class="producto">M&M</div>
+            <div class="producto">Mazapán Gigante</div>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    Catálogo Digital Front Desk
+</footer>
+
+</body>
+</html>
+
